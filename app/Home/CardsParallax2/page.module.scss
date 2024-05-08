@@ -1,0 +1,13 @@
+.main{
+    position: relative;
+    margin-top: 10vh;
+  }
+
+  @media screen and (max-width: 500px) {
+    .main {
+      margin-top: 0vh;
+    }
+    .main img{
+      height: 100%;
+    }
+  }
